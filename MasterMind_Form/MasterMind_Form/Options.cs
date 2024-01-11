@@ -175,7 +175,7 @@ namespace MasterMind_Form
                     colorBtnGrid[i].BackgroundImage = Properties.Resources.transparent;
                 }
             }
-        }
+        } // Fin BackgroundBtn_Click
 
         /// <summary>
         /// Event handler for the Wood background button.
@@ -209,7 +209,7 @@ namespace MasterMind_Form
                     colorBtnGrid[i].BackgroundImage = colorsImage[i];
                 }
             }
-        }
+        } // Fin WoodBackgroundBtn_Click 
 
         /// <summary>
         /// Event handler for the Iron background button.
@@ -243,7 +243,7 @@ namespace MasterMind_Form
                     colorBtnGrid[i].BackgroundImage = ironColorsImage[i];
                 }
             }
-        }
+        } // Fin IronBackgroundBtn_Click
 
         /// <summary>
         /// Event handler for the Wool background button.
@@ -277,7 +277,7 @@ namespace MasterMind_Form
                     colorBtnGrid[i].BackgroundImage = pokerColorsImage[i];
                 }
             }
-        }
+        } // Fin WoolBackgroundBtn_Click
 
         /// <summary>
         /// Event handler for the Neon background button.
@@ -310,7 +310,7 @@ namespace MasterMind_Form
                     colorBtnGrid[i].BackgroundImage = neonColorsImage[i];
                 }
             }
-        }
+        } // Fin NeonBackgroundBtn_Click
 
         /// <summary>
         /// Event handler for the Menu button.
@@ -403,8 +403,7 @@ namespace MasterMind_Form
                 IsItalianChecked = false;
                 IsGermanChecked = false;
             }
-        }
-
+        } // Fin LanguagesBx_CheckedChanged
         #endregion
 
         #region Form Color Blindness Option
@@ -480,7 +479,7 @@ namespace MasterMind_Form
                     }
                 }
             }
-        }
+        } // Fin optionCheckBox_CheckedChanged
         #endregion
 
         #region Form Closing

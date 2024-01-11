@@ -100,7 +100,7 @@ namespace MasterMind_Form
 
             // Generate the secret code
             GenerateCode();
-        }
+        } // Fin Game
 
         /// <summary>
         /// Method to adjust the window size based on the code length
@@ -205,7 +205,7 @@ namespace MasterMind_Form
             ColorGridInitialize();
             HintGridInitialize();
             ColorBtnInitialize();
-        }
+        }// Fin Game_Load
 
         /// <summary>
         /// Change the color of the buttons to white
@@ -304,7 +304,7 @@ namespace MasterMind_Form
                 colorBtnPnl.Controls.Add(colorButton);
                 colorBtnInit[i] = colorButton;
             }
-        }
+        } // Fin ColorBtnInitialize
 
         /// <summary>
         /// Create buttons for colors
@@ -358,7 +358,7 @@ namespace MasterMind_Form
                     colorBtnGrid[i, j] = guessButton;
                 }
             }
-        }
+        } // Fin ColorGridInitialize
 
         /// <summary>
         /// Create buttons for hints
@@ -409,7 +409,7 @@ namespace MasterMind_Form
                     hintBtnGrid[i, j] = hintButton;
                 }
             }
-        }
+        } // Fin HintGridInitialize
 
         /// <summary>
         /// Generates the code
@@ -449,7 +449,7 @@ namespace MasterMind_Form
                 codePnl.Controls.Add(secretCode);
                 colorsSecretCode[i] = secretCode;
             }
-        }
+        } // Fin GenerateCode
         #endregion
 
         #region Form Animation
@@ -548,7 +548,7 @@ namespace MasterMind_Form
             {
                 return "couleurs max";
             }
-        }
+        } // Fin GetLanguageWarning
 
         /// <summary>
         /// Handles the click event of the Undo button.
@@ -832,7 +832,7 @@ namespace MasterMind_Form
             }
             // Increment the line counter after the methods to avoid restarting from line 2
             currentLine++;
-        }
+        } // Fin CheckCode
         #endregion
 
         #region Form Buttons

@@ -153,7 +153,7 @@ namespace MasterMind_Form
                 optionBtn.ForeColor = Color.White;
                 quitBtn.ForeColor = Color.White;
             }
-        }
+        } // Fin Menu_VisibleChanged
         #endregion
     }
 }

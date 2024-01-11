@@ -114,7 +114,7 @@ namespace MasterMind_Form
                 ruleTitle.Text = "Règles";
                 menuBtn.Text = "Menu";
             }
-        }
+        } // Fin SetTextAndColors
         #endregion
 
         #region Form Private Methods

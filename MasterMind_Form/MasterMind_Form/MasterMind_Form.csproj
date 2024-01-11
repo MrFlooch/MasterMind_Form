@@ -421,7 +421,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\cheat.bmp" />
-    <Content Include="Resources\cheat.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
